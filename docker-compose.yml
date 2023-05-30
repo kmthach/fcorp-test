@@ -1,0 +1,9 @@
+services:
+  web:
+    build: /api
+    ports:
+      - "3000:3000"
+  user_db:
+    build: /ui
+    ports:
+      - "3001:3001"
